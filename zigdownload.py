@@ -34,3 +34,5 @@ os.system(f"mkdir zig");
 if os.system(f"tar xvf zigdownload.tar.xz -C ./zig") != 0:
     print(f"Error while trying to extract Zig")
     exit(1)
+
+os.system("rm zigdownload.tar.xz")
